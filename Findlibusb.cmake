@@ -29,6 +29,7 @@ if (NOT LIBUSB_FOUND)
         PATHS
             /usr/include
             /usr/local/include
+            /opt/homebrew/opt/libusb/include
     )
 
     if(USE_STATIC_USB)
@@ -44,6 +45,7 @@ if (NOT LIBUSB_FOUND)
         PATHS
             /usr/lib
             /usr/local/lib
+            /opt/homebrew/opt/libusb/lib
     )
 
     if(USE_STATIC_USB)
