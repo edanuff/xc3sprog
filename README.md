@@ -1,4 +1,25 @@
 
+# Fork to compile on Mac OS (Venture 13.4.1)
+
+Manually install the [FTDI D2XX Drivers](https://ftdichip.com/drivers/d2xx-drivers/)
+
+Install [Homebrew](https://brew.sh/)
+
+Clone the repo and execute the following commands in the Terminal:
+
+```
+cd xc3sprog
+brew install cmake
+brew install libusb libusb-compat
+brew install libftdi
+cmake .
+make
+```
+
+Should build with no errors and lots of warnings.
+
+***
+
 # Installation
 ```
 # Add repo and key
