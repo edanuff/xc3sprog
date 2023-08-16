@@ -1,5 +1,5 @@
 
-# Fork to compile on Mac OS (Venture 13.4.1)
+# Fork to compile on Mac OS (Ventura 13.4.1)
 
 Manually install the [FTDI D2XX Drivers](https://ftdichip.com/drivers/d2xx-drivers/)
 
