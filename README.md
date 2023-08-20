@@ -18,6 +18,10 @@ make
 
 Should build with no errors and lots of warnings.
 
+**For most situations, OpenFPGALoader is going to be a better choice than Xc3sProg since recent builds of OpenFPGALoader support Xilinx CPLDs and ISE .jed files**
+
+**With either Xc3sProg or OpenFPGALoader, a programmer board with a real FT2232h chip versus a clone chip is highly recommended**
+
 ***
 
 # Installation
